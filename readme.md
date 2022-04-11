@@ -56,8 +56,8 @@ ___
 ```json
 {
     "tconst": "tt0000001",
-	"averageRating": 5.7,
-	"numVotes": 1871
+    "averageRating": 5.7,
+    "numVotes": 1871
 }
 ```
 

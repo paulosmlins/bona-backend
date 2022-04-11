@@ -26,6 +26,8 @@ Consiste em entregar uma API REST para que seja possível listar, editar e delet
 - PUT http://localhost:3333/movies/:tconst - Update de informações do banco recebendo ID (segue exemplo de objeto abaixo)
 - DEL http://localhost:3333/movies/:tconst - Exclusão de informações do banco recebendo ID na URL
 
+___
+
 - GET http://localhost:3333/moviesRating - Listagem de Ratings filmes cadastrados no banco
 - POST http://localhost:3333/moviesRating - Inserção de objeto com dados (segue exemplo de objeto abaixo)
 - PUT http://localhost:3333/moviesRating/:tconst - Update de informações do banco recebendo ID (segue exemplo de objeto abaixo)

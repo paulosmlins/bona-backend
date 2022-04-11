@@ -26,7 +26,12 @@ Consiste em entregar uma API REST para que seja possível listar, editar e delet
 - PUT http://localhost:3333/movies/:tconst - Update de informações do banco recebendo ID (segue exemplo de objeto abaixo)
 - DEL http://localhost:3333/movies/:tconst - Exclusão de informações do banco recebendo ID na URL
 
-### Objeto para exemplo de criação:
+- GET http://localhost:3333/moviesRating - Listagem de Ratings filmes cadastrados no banco
+- POST http://localhost:3333/moviesRating - Inserção de objeto com dados (segue exemplo de objeto abaixo)
+- PUT http://localhost:3333/moviesRating/:tconst - Update de informações do banco recebendo ID (segue exemplo de objeto abaixo)
+- DEL http://localhost:3333/moviesRating/:tconst - Exclusão de informações do banco recebendo ID na URL
+
+### Objeto para exemplo de criação de filmes:
 
 ```json
 {
@@ -41,6 +46,16 @@ Consiste em entregar uma API REST para que seja possível listar, editar e delet
     "genres": "Documentary,Short",
     "created_at": "2022-04-11T00:17:54.049Z",
     "updated_at": "2022-04-11T00:17:54.049Z"
+}
+```
+
+### Objeto para exemplo de criação de ratings de filmes:
+
+```json
+{
+    "tconst": "tt0000001",
+	"averageRating": 5.7,
+	"numVotes": 1871
 }
 ```
 

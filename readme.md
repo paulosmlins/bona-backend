@@ -13,6 +13,7 @@ Consiste em entregar uma API REST para que seja possível listar, editar e delet
 
 ## Comandos necessários para rodar a aplicação:
 
+- `npm install`
 - `docker run --name postgres-db -e POSTGRES_PASSWORD=bona123 -e POSTGRES_USER=postgres -e POSTGRES_DB=bona_filmes -p 5435:5432 -d postgres`
 - `npx knex migrate:latest`
 - `npm run start`

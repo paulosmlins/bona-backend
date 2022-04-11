@@ -1,0 +1,20 @@
+{
+  "name": "backend-bona",
+  "version": "1.0.0",
+  "description": "Api Teste Bonaparte",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/index.js"
+  },
+  "author": "paulosmlins",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "knex": "^1.0.5",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

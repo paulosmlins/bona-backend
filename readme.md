@@ -28,7 +28,7 @@ Consiste em entregar uma API REST para que seja possível listar, editar e delet
 
 ### Objeto para exemplo de criação:
 
-`{
+```json
         "tconst": "tt0000001",
         "titleType": "short",
         "primaryTitle": "Carmencita",
@@ -40,7 +40,7 @@ Consiste em entregar uma API REST para que seja possível listar, editar e delet
         "genres": "Documentary,Short",
         "created_at": "2022-04-11T00:17:54.049Z",
         "updated_at": "2022-04-11T00:17:54.049Z"
-}`
+```
 
 ## Observações
 
